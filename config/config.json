@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloWorldWp/HelloWorldWpWebPart.js",
+          "manifest": "./src/webparts/helloWorldWp/HelloWorldWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldWpWebPartStrings": "lib/webparts/helloWorldWp/loc/{locale}.js"
+  }
+}
